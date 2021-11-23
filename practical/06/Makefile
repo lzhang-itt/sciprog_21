@@ -17,4 +17,4 @@ main.o: main.f90
 ##$(FC) -c $(FCFLAGS) main.f90
 
 clean:
-	rm *.o *.mod
+	rm *.o matrix
