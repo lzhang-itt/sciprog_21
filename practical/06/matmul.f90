@@ -1,6 +1,6 @@
 subroutine matmult(x, y, z)
-    integer, dimension(:, :), intent(in) :: x, y
-    integer, dimension(:, :), intent(inout) :: z
+    real(8), dimension(:, :), intent(in) :: x, y
+    real(8), dimension(:, :), intent(inout) :: z
     integer :: i, j
 
     do, i = 1, size(z, 1)
