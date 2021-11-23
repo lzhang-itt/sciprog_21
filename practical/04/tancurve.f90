@@ -25,6 +25,8 @@ program tancurve
             pts(i) = tan(deg2rad(i * (b - a) / pts_num))
         end do
 
+        write(*, "(F10.8)") (pts(i), i = 0, pts_num)
+
         pts(1:pts_num-1) = pts(1:pts_num-1) * 2.0 
         area = deg2rad(b - a) * sum(pts) / 2.0 / pts_num
         deallocate(pts)
