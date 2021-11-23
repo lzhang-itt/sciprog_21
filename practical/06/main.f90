@@ -18,7 +18,7 @@ program matrix
     end do
     c = 0
 
-    ! call matmult(a, b, c)
+    call matmult(a, b, c)
     
     call print_matrix(a)
     call print_matrix(b)
@@ -26,6 +26,8 @@ program matrix
     
     contains
 
+    include "matmul.f90"
+    
     subroutine print_matrix(m)
         integer :: i, j
         integer, dimension(:,:), intent(in) :: m

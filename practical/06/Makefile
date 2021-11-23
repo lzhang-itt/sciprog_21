@@ -1,5 +1,5 @@
 FC = gfortran
-FCFLAGS = -O3 =Wall
+FCFLAGS = -O3 -Wall
 LDFLAGS = -lm
 
 all: matrix
