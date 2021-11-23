@@ -1,4 +1,4 @@
-mkdirprogram conversion
+program conversion
 ! Declare variables 
    integer (kind=4) :: i,inum,tmp,numdigits
    integer :: binnum(60)
@@ -22,9 +22,9 @@ mkdirprogram conversion
       i = i+1
    end do
 
-! TODO Complete the expression
-   numdigits = nint( ... ) 
-!  write(6,*) ' The number of digits is ',numdigits
+! Count the digits in binary form
+   numdigits = ceiling(log(fnum) / log(2.0)) ! That's 2^25=1
+   write(6,*) ' The number of digits is ',numdigits
 
    write(6,'(a,i0,a,f0.1,a,b0)')  'inum=',inum,', fnum=',fnum,', inum in binary=',inum
 
