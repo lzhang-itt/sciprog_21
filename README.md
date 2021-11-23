@@ -1,5 +1,15 @@
 # Scientific Programming Concepts PH502/ACM40660 Autumn 2021
 
+## Overview
+
+Here you can find source code used in practical exercises used in PH502 2021. 
+
+Check individual folders under `practical/` for concrete code. All source code are tested to compile under GFortran 9.3.0 on Linux.
+
+This repo is work of my own and comes with ABSOLUTELY NO WARRANTY. Have fun
+
+## Original description from upstream
+
 Fork this repository into your github account. From there; 
 
 - Clone the repo onto your local machine/sciprog using `git clone`
