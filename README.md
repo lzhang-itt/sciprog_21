@@ -6,7 +6,7 @@ Here you can find source code used in practical exercises used in PH502 2021.
 
 Check individual folders under `practical/` for concrete code. All source code are tested to compile under GFortran 9.3.0 on Linux.
 
-This repo is work of my own and comes with ABSOLUTELY NO WARRANTY. Have fun
+This repo is work of my own and comes with ABSOLUTELY NO WARRANTY. Have fun!
 
 ## Original description from upstream
 
